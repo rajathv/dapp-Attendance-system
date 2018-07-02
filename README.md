@@ -1,10 +1,7 @@
-# Your_First_Decentralized_Application
-This is the code for "A Guide to Building Your First Decentralized Application" by Siraj Raval on Youtube
+# Decentralized_Application for Attendance_System
 
+This dapp uses QR code scanner to update attendance by creating smart contract so that there is no modifications to attendance and proxies.
 
-## Overview
-
-This is the code for [this](https://youtu.be/gSQXq2_j-mw) video on Youtube by Siraj Raval. It's a guide on how to build your first decentralized application. 
 
 ## Dependencies
 
@@ -15,7 +12,7 @@ This is the code for [this](https://youtu.be/gSQXq2_j-mw) video on Youtube by Si
 Install missing dependencies with [npm](https://www.npmjs.com/). 
 
 ```
-> git clone git@github.com:llSourcell/Your_First_Decentralized_Application.git
+> git clone gthub.com/rajathv/dapp-Attendance-system
 > cd Your_First_Decentralized_Application
 > npm install 
 ```
@@ -44,8 +41,4 @@ siraj:~/hello_world_voting$ node
 > contractInstance = VotingContract.at(deployedContract.address)
 ```
 
-Interact with the contract via the html page attached, just open it in your browser. See [this](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2) tutorial for more details. 
 
-## Credits
-
-The credits for this code go to [maheshmurthy](https://gist.github.com/maheshmurthy). I've merely created a wrapper to get people started. 
